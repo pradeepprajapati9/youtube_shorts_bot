@@ -1,0 +1,55 @@
+# ═══════════════════════════════════════════════
+#  STORAGE BACHAO — heavy media GitHub pe mat bhejo
+#  (Sirf scripts/code push honge, videos/images nahi)
+# ═══════════════════════════════════════════════
+
+# Media files (bhaari — local hi rakho)
+assets/images/*
+assets/voice/*
+assets/music/*
+output/*
+ready-to-upload/*
+
+# In folders ka structure bacha ke rakho
+!assets/images/.gitkeep
+!assets/voice/.gitkeep
+!assets/music/.gitkeep
+!output/.gitkeep
+!ready-to-upload/.gitkeep
+
+# Media extensions (kahin bhi ho to ignore)
+*.mp4
+*.mov
+*.avi
+*.mp3
+*.wav
+*.m4a
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# ═══════════════════════════════════════════════
+#  SECRETS — kabhi push mat karo (pichli baar leak hua tha)
+# ═══════════════════════════════════════════════
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+token.json
+client_secret*.json
+*secret*
+
+# Python / bot cache (jab automation banega)
+__pycache__/
+*.pyc
+venv/
+.venv/
+node_modules/
+
+# OS junk
+Thumbs.db
+.DS_Store
+desktop.ini
