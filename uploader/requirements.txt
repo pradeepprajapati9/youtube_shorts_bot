@@ -1,0 +1,4 @@
+# Kahani Shorts uploader ke liye zaroori packages
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2

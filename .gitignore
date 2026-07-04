@@ -16,6 +16,8 @@ ready-to-upload/*
 !assets/music/.gitkeep
 !output/.gitkeep
 !ready-to-upload/.gitkeep
+# Queue manifest track karo (isme secret nahi, sirf metadata)
+!ready-to-upload/upload_queue.json
 
 # Media extensions (kahin bhi ho to ignore)
 *.mp4
@@ -41,6 +43,8 @@ credentials.json
 token.json
 client_secret*.json
 *secret*
+uploader/credentials/
+credentials/
 
 # Python / bot cache (jab automation banega)
 __pycache__/

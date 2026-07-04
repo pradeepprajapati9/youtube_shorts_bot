@@ -8,7 +8,17 @@
 
 ## 📖 Zaroori files (padho)
 - [POLICY.md](POLICY.md) — ⚖️ YouTube rules + har short se pehle checklist (channel safe rakho)
+- [STRATEGY.md](STRATEGY.md) — 🎯 algorithm strategy (views kaise badhein)
 - [USED-IDEAS.md](USED-IDEAS.md) — 🚫 duplicate tracker (koi kahani repeat na ho)
+- [uploader/SETUP.md](uploader/SETUP.md) — 🤖 auto-uploader (video → YouTube automatic)
+
+## 🤖 Auto-Uploader
+`uploader/` folder me automatic YouTube uploader hai. Tu CapCut me video bana ke
+`ready-to-upload/` me daal, `upload_queue.json` me detail likh, phir:
+```
+cd uploader && python upload.py --queue
+```
+Saare videos auto-upload ho jaayenge. Setup: [uploader/SETUP.md](uploader/SETUP.md)
 
 ---
 
